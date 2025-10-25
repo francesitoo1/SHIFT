@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <!-- Update the array below to add or remove bundle IDs. Keep it in sync with server/policy.json. -->
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.applicationaccess</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.example.shiftmode.blacklist</string>
+        <key>PayloadUUID</key>
+        <string>71BA1DAF-5E3A-4890-8F1A-6E014FD9247F</string>
+        <key>PayloadEnabled</key>
+        <true/>
+        <key>PayloadDisplayName</key>
+        <string>Shift Mode Restrictions</string>
+        <key>PayloadDescription</key>
+        <string>Blocks distracting apps while Shift Mode is active.</string>
+        <key>allowAppInstallation</key>
+        <true/>
+        <key>blacklistedAppBundleIDs</key>
+        <array>
+          <string>com.burbn.instagram</string>
+          <string>com.snapchat.snapchat</string>
+          <string>com.zhiliaoapp.musically</string>
+        </array>
+      </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Shift Mode App Blacklist</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.shiftmode</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>1FBF19ED-19CE-4C7A-882F-7347332B2D93</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
+</plist>
